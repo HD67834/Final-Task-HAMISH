@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Spaceballs';
+    src: url(Font.ttf) format('truetype');
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.banner {
+    background-image: url("download.jpg");
+    height: 75px;
+    color: rgb(255, 255, 255);
+    text-align:left;
+    padding: 25px;
+    font-size: 50px;
+    font-family: 'Spaceballs'
+}
+
+.header {
+    float: right;
+    align-items: left;
+    font-family:'Spaceballs';
+    background-color: navy;
+    border: 2px, solid, black;
+    color:White;
+    padding: 32px 32px;
+    display:inline-block;
+    align-content: center;
+    cursor: pointer;
+}
+
+footer {
+    background-color: darkslategray;
+    color:white;
+    padding: 30px;
+    text-align:left;
+    position:relative;
+    width: 100%;
+    bottom:0;
+    font-family: Spaceballs;
+}
+
+.links {
+    text-align: right;
+    color:white;
+}
+
+.quotes {
+    background-color:bisque;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: xx-large;
+    width: 625px;
+    height: 600px;
+    text-align:center;
+    color:darkslategray;
+}
+
+.lonestarr {
+    border-right:auto;
+    border-left: 625;
+}
+
+.about_us {
+    text-align: right;
+    font-family: Spaceballs;
+    background-color: green;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.footerbuttons {
+    background-color: darkslategray;
+    color:white;
+    text-align: center;
+    font-size: 32px;
+    padding:15px 32px;
+    border: 3px;
+    font-family: Spaceballs;
+    transition-duration: 0.4s;
+    cursor:pointer;
+}
+
+.footerbuttons:hover {
+    background-color: white;
+    color:darkslategray;
+}

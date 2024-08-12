@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Spaceballs;
+    src: url(Font.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sigmar+One&display=swap');
+
+.banner {
+    background-image: url("download.jpg");
+    height: 75px;
+    color: rgb(255, 255, 255);
+    text-align:left;
+    padding: 25px;
+    font-size: 50px;
+    font-family: 'Spaceballs'
+}
+
+.header {
+    float: right;
+    align-items: left;
+    font-family:'Spaceballs';
+    background-color: navy;
+    border: 2px, solid, black;
+    color:White;
+    padding: 32px 32px;
+    display:inline-block;
+    align-content: center;
+    cursor: pointer;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+
+h1 {
+    text-align: center;
+    font-family: Spaceballs;
+}
+
+h2 {
+    text-align: center;
+    font-family: Spaceballs;
+}
+
+h3 {
+    text-align: left;
+    font-family: Spaceballs;
+}
+
+.bod {
+    font-family: roboto;
+}
+
+footer {
+    background-color: darkslategray;
+    color:white;
+    padding: 30px;
+    text-align:left;
+    position:relative;
+    width: 100%;
+    bottom:0;
+    font-family: Spaceballs;
+}
+
+.footerbuttons {
+    background-color: darkslategray;
+    color:white;
+    text-align: center;
+    font-size: 32px;
+    padding:15px 32px;
+    border: 3px;
+    font-family: Spaceballs;
+    transition-duration: 0.4s;
+    cursor:pointer;
+}
+
+.footerbuttons:hover {
+    background-color: white;
+    color:darkslategray;
+}
+
+.left {
+    text-align: left;
+}
+
